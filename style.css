@@ -1,0 +1,10 @@
+/* IE Fix for drop down arrow */
+
+.top-bar-section .has-dropdown > a::after {
+	border-style: none;
+	content: "\f0d7";
+	color: rgba(204, 204, 204, 1);
+	padding-right: 10px;
+	font-family: FontAwesome;
+	top: 0.2rem;
+}
