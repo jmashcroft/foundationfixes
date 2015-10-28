@@ -1,5 +1,7 @@
 /* IE Fix for drop down arrow */
 
+/* 'Mobile' Nav */
+
 .top-bar-section .has-dropdown > a::after {
 	border-style: none;
 	content: "\f0d7";
@@ -7,4 +9,15 @@
 	padding-right: 10px;
 	font-family: FontAwesome;
 	top: 0.2rem;
+}
+
+/* 'Desktop' Nav */
+
+@media only screen and (min-width: 64.0625em) {
+
+.top-bar-section .has-dropdown > a::after {
+	content: "\f0d7";
+	top: 0.2rem;
+}
+
 }
